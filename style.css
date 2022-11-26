@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif, Trade Gothic LT Std Bold;
+    transition:all 0.2s;
+   
+}
+.navbar_top{
+width:100%;
+height:60px;
+display:grid;
+align-items:center;
+justify-content:space-around;
+border-bottom:solid grey;
+border-width:1px;
+
+}
+.logo{
+    display:flex;
+    position:absolute;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px;
+    margin-left:5%;
+    width: 100px;
+}
+.search_bar{
+    position:absolute;
+    display:flex;
+    margin-left:20%;
+}
+.search_bar input{
+    width:600px;
+    height:40px;
+    border:solid grey;
+    border-right:none;
+    border-radius:20px 0 0 20px ;
+    border-width:1px;
+    outline:none;
+    padding-left:20px;
+    font-size:18px;
+}
+.search_bar button{
+    width:70px;
+    height:40px;
+    border:solid grey;
+    background-color:none;
+    border-width:1px;
+    border-radius:0 20px 20px 0;
+}
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+    .search_bar{
+        position:relative;
+    }
+    .search_bar button{
+        text-indent:30px;
+    }
+    .search_bar .fa-search{
+        position:absolute;
+        top:12px;
+        left:93%;
+        font-size:18px;
+        font-weight:70px;
+    }
